@@ -1,0 +1,9 @@
+{
+  "name": "requesting-code-review",
+  "repository": "https://github.com/obra/superpowers.git",
+  "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+  "source_path": "skills/requesting-code-review",
+  "adaptations": [
+    "Codex reviewer mapping, non-delegation fallback, review-only scope, uncommitted work support."
+  ]
+}

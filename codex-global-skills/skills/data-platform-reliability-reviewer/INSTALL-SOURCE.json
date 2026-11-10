@@ -1,0 +1,9 @@
+{
+  "name": "data-platform-reliability-reviewer",
+  "repository": "https://github.com/vaquarkhan/data-engineering-agent-skills.git",
+  "commit": "421ef57e8d42c464b29339193c18dd5bd2946bc2",
+  "source_path": "agents/data-platform-reliability-reviewer.md",
+  "adaptations": [
+    "Wrap persona as a discoverable Codex skill; bundle reference workflows as non-discoverable documents; keep review distinct from operational execution."
+  ]
+}

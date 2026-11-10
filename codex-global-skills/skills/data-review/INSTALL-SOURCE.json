@@ -1,0 +1,9 @@
+{
+  "name": "data-review",
+  "repository": "https://github.com/aurora-payments/data-skills.git",
+  "commit": "663efa720b6a284a1475ec2b4a42644744bf6326",
+  "source_path": "skills/data-review",
+  "adaptations": [
+    "Remove mandatory per-project tracker setup; support WIP diffs, Codex review fallback, conditional modeling heuristics and read-only review."
+  ]
+}
