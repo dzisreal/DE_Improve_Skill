@@ -1,0 +1,3 @@
+interface:
+  display_name: "Data Review"
+  short_description: "Review a data diff on three axes"

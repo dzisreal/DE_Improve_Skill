@@ -1,0 +1,9 @@
+{
+  "name": "data-architect",
+  "repository": "https://github.com/magnus919/agent-skills.git",
+  "commit": "da4ce5c6823cce6da80f4e09c84998a4928402c1",
+  "source_path": "data-architect",
+  "adaptations": [
+    "Clarify global resource paths, optional skill routing, and verification of time-sensitive reference claims."
+  ]
+}

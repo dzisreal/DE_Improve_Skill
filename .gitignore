@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+.env
+.env.*
+!.env.example
+/dist/
+/codex-global-skills.zip
+/codex-global-skills/verification.json

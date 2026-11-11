@@ -1,0 +1,2 @@
+# Preserve upstream bytes for provenance/checksum validation.
+codex-global-skills/skills/** linguist-vendored -whitespace

@@ -1,0 +1,35 @@
+name: Validate skill bundle
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - name: Validate pinned contents
+        run: python3 scripts/validate_bundle.py
+      - name: Test installer and packaging
+        run: python3 -m unittest discover -s tests -v
+      - name: Build portable bundle
+        run: python3 scripts/package_skills.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: codex-global-skills-${{ matrix.os }}
+          path: |
+            dist/codex-global-skills.zip
+            dist/codex-global-skills.zip.sha256
