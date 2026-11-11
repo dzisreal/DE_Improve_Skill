@@ -31,7 +31,7 @@ script kiểm tra optional trong repo. Unit tests dùng thư mục tạm, không
 skills thật của người dùng. Tests bao phủ cài mới, cài lại, check-only, xung đột,
 source bị sửa, symlink, rollback khi copy lỗi và cài từ ZIP vừa build.
 
-CI chạy cùng lệnh trên `ubuntu-latest` và `macos-latest`, Python 3.9. macOS CI kiểm
+CI chạy cùng lệnh trên `ubuntu-latest` và `macos-latest`, Python 3.14. macOS CI kiểm
 tra installer/filesystem; không đăng nhập Codex và không xác nhận UI trên Mac M1.
 
 ## Build ZIP

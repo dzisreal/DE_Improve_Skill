@@ -70,6 +70,9 @@ Hướng dẫn riêng Linux/macOS, prerequisites, cập nhật, uninstall và tr
   scope `user`, enabled, từ repo và một thư mục tạm độc lập.
 - CI được cấu hình chạy trên Linux và macOS; trạng thái thực tế xem checks của PR.
   Không diễn giải việc có workflow là đã chạy thành công trên macOS.
+- CI dùng Python 3.14 có bản cài cho cả hai runner hiện hành. Lần chạy đầu với
+  Python 3.9 dừng ở setup trên Ubuntu 26.04 vì không có distribution tương ứng;
+  đây là lỗi chuẩn bị runtime, chưa chạy tới validator hay test.
 - Chưa kiểm tra UI Codex trên Mac M1 của người dùng, chưa benchmark chất lượng
   tutor/reviewer và chưa kết nối production hoặc IBM Cloud Pak for Data.
 
