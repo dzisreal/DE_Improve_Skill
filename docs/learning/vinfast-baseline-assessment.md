@@ -4,6 +4,11 @@ Mục đích: phân bổ 112 giờ học theo [kế hoạch](vinfast-8-week-plan
 đồng số năm kinh nghiệm với mức thành thạo từng công nghệ. Chưa có điểm cho đến
 khi có bài làm. Không cần cài cả stack để làm assessment.
 
+Nếu đã gửi câu trả lời và được phản hồi, chuyển sang
+[tuần 1](week-01-foundations.md). Đây là đề/rubric tái sử dụng, không phải yêu
+cầu làm lại toàn bộ assessment; các ô bên dưới là template, không phải kết quả
+cá nhân hiện tại.
+
 ## Cách làm
 
 105 phút đầu tự làm, không dùng AI; được tra tài liệu chính thức nhưng ghi nguồn.

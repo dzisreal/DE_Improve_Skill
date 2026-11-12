@@ -39,6 +39,7 @@ Ví dụ: `Dùng $data-review review thay đổi SQL trên nhánh này so với 
 ## Tài liệu
 
 - [Lộ trình VinFast: 8 tuần, 2 giờ/ngày](docs/learning/vinfast-8-week-plan.md)
+- [Bắt đầu tuần 1: bài học và bài tập cho từng buổi 2 giờ](docs/learning/week-01-foundations.md)
 - [Bài đánh giá đầu vào: 120 phút](docs/learning/vinfast-baseline-assessment.md)
 - [Đặc tả dự án thực hành và tiêu chí nghiệm thu](docs/learning/vinfast-capstone.md)
 - [Cài đặt, cập nhật và gỡ bỏ trên Linux/macOS](docs/installation.md)

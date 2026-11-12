@@ -4,6 +4,11 @@
 phải hệ thống đã chạy. Tất cả dữ liệu được tạo giả lập; tên dự án không hàm ý
 đây là kiến trúc hoặc dữ liệu nội bộ của VinFast.
 
+Tuần 1 luyện các cơ chế correctness bằng fixture nhỏ trong
+[bài học nền tảng](week-01-foundations.md); luồng end-to-end object storage tới
+ClickHouse bắt đầu tuần 2. Config/CI được thêm từ tuần 2, dbt artifacts từ tuần
+4 và evidence tích lũy mỗi tuần để phục vụ governance/promotion cuối lộ trình.
+
 ## Yêu cầu nghiệp vụ và phạm vi
 
 Phục vụ ba câu hỏi: mỗi xe đi bao nhiêu km mỗi ngày; dealer có bao nhiêu yêu cầu
